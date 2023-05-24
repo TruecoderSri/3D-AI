@@ -57,7 +57,7 @@ const Customizer = () => {
       setGeneratingImg(true);
 
       const response = await fetch(
-        "https://threed-ai-xw0n.onrender.com//api/v1/dalle",
+        "https://threed-ai-xw0n.onrender.com/api/v1/dalle",
         {
           method: "POST",
           headers: {
